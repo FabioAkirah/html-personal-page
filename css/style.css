@@ -1,0 +1,63 @@
+.profile-picture {
+  border-radius: 50%;
+}
+
+.title-background {
+  background-color: #1e2a5e;
+}
+
+.color-white {
+  color: white !important;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-background {
+  background-color: rgb(15, 16, 53);
+}
+
+.body-background {
+  background-color: rgb(255, 255, 255);
+}
+
+.icon-square {
+  background-color: rgb(15, 16, 53) !important;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(15, 16, 53);
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 770px) {
+  .flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
